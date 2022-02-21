@@ -10,8 +10,8 @@ import Foundation
 /**
  * A configurable URLProtocol that can be used to intercept requests and provide custom responses during testing.
  * Shamelessly ripped from: https://medium.com/@dhawaldawar/how-to-mock-urlsession-using-urlprotocol-8b74f389a67a
- * Comments are from that post.  I consider this boilerplate; I've used this approach to provide demo-mode data to an
- * app to allow the user to test-drive features without logging in.
+ * Comments are from that post.  I consider this boilerplate; I've used this approach previously to provide
+ * demo-mode data to an app to allow the user to test-drive features without logging in.
  */
 class MockURLProtocol: URLProtocol {
     
