@@ -7,6 +7,9 @@
 
 import UIKit
 
+/**
+ * Displays an initial article label
+ */
 class ArticleCell: UITableViewCell {
     @IBOutlet weak var title: UILabel!
 }

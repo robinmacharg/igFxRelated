@@ -11,9 +11,13 @@ class MarketsViewController: UITableViewController {
     
     // MARK: - Outlets
     
+    // None.
+    
     // MARK: - Properties
     
     var model = MarketsViewControllerModel()
+    
+    private var loadingIndicator: UIAlertController?
     
     // MARK: - View Lifecycle
     
@@ -24,6 +28,8 @@ class MarketsViewController: UITableViewController {
         self.refreshControl = refreshControl
         refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
         refreshControl.addTarget(self, action: #selector(self.refresh(_:)), for: .valueChanged)
+        
+        // Ensure that the refresh control is under the table
         refreshControl.layer.zPosition = -1
         
         loadData()
@@ -35,7 +41,12 @@ class MarketsViewController: UITableViewController {
      * Load the data for this VC asynchronously
      */
     func loadData() {
-        API.getMarkets { [self] result in
+        
+        loadingIndicator = self.showBusyIndicator(message: "Loading Markets...")
+        
+        API.shared.getMarkets { [self] result in
+            hideBusyIndicator(loader: loadingIndicator)
+            
             switch result {
             case .failure(let error):
                 print("failure: \(error.localizedDescription)")
@@ -63,7 +74,7 @@ class MarketsViewController: UITableViewController {
 // MARK: - <UITableViewDelegate>
 
 extension MarketsViewController {
-    
+    // Unused - would be removed in production code; left to show awareness.
 }
 
 // MARK: - <UITableViewDataSource>
@@ -127,31 +138,6 @@ extension MarketsViewController {
         return cell
     }
     
-//    // Header Cell
-//    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-//        guard let cell = tableView.dequeueReusableCell(withIdentifier: "HeaderCell") as? MarketHeaderTableViewCell else {
-//            fatalError()
-//        }
-//        cell.backgroundColor = UIColor.gray
-//
-//        let section = MarketSection(rawValue: section)
-//        var text = "Unknown Market Values"
-//
-//        switch (section) {
-//        case .commodities:
-//            text = "Commodities"
-//        case .currencies:
-//            text = "Currencies"
-//        case .indices:
-//            text = "Indices"
-//        case .none:
-//            fatalError("Unexpected market section")
-//        }
-//
-//        cell.headerLabel.text = text
-//
-//        return cell
-//    }
     /**
      * Generate an appropriate section header with item count
      *

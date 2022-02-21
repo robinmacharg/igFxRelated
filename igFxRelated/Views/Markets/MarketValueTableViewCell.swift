@@ -30,6 +30,9 @@ class MarketValueTableViewCell: UITableViewCell {
         }
     }
     
+    /**
+     * Configures the Top Market indicator (up or down, green or red arrow).  Unsure if this is is a correct interpretation.
+     */
     func setIsTopMarket(_ isTopMarket: Bool) {
         if isTopMarket {
             topMarketImage.image = UIImage(systemName: "arrowtriangle.up.fill")

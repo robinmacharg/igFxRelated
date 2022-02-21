@@ -22,11 +22,15 @@
 		0028F12427BFF85600C1BAD7 /* IGFxError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028F12327BFF85600C1BAD7 /* IGFxError.swift */; };
 		0028F12D27C0014400C1BAD7 /* MarketsViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028F12C27C0014400C1BAD7 /* MarketsViewControllerModel.swift */; };
 		0028F13327C0059800C1BAD7 /* MarketValueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028F13227C0059800C1BAD7 /* MarketValueTableViewCell.swift */; };
-		0028F14427C0144E00C1BAD7 /* MarketHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028F14327C0144E00C1BAD7 /* MarketHeaderTableViewCell.swift */; };
 		0028F14927C065EB00C1BAD7 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028F14827C065EB00C1BAD7 /* ArticlesViewController.swift */; };
 		0028F14E27C065FD00C1BAD7 /* ArticlesViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028F14D27C065FD00C1BAD7 /* ArticlesViewControllerModel.swift */; };
 		0028F15327C068C800C1BAD7 /* ModelHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028F15227C068C800C1BAD7 /* ModelHelpers.swift */; };
 		0028F16B27C119AC00C1BAD7 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028F16A27C119AC00C1BAD7 /* ArticleCell.swift */; };
+		0028F17B27C13EFD00C1BAD7 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028F17A27C13EFC00C1BAD7 /* ArticleDetailViewController.swift */; };
+		0028F18027C2423600C1BAD7 /* Segues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028F17F27C2423600C1BAD7 /* Segues.swift */; };
+		0028F18527C24B5900C1BAD7 /* UIViewController+LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028F18427C24B5900C1BAD7 /* UIViewController+LoadingIndicator.swift */; };
+		0028F1A027C3006300C1BAD7 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028F19F27C3006300C1BAD7 /* MockURLProtocol.swift */; };
+		0028F1A827C3013700C1BAD7 /* MarketParsingData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0028F1A727C3013700C1BAD7 /* MarketParsingData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,13 +74,18 @@
 		0028F12827BFFAD000C1BAD7 /* README_submission.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_submission.md; sourceTree = "<group>"; };
 		0028F12C27C0014400C1BAD7 /* MarketsViewControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsViewControllerModel.swift; sourceTree = "<group>"; };
 		0028F13227C0059800C1BAD7 /* MarketValueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketValueTableViewCell.swift; sourceTree = "<group>"; };
-		0028F14327C0144E00C1BAD7 /* MarketHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		0028F14827C065EB00C1BAD7 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
 		0028F14D27C065FD00C1BAD7 /* ArticlesViewControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewControllerModel.swift; sourceTree = "<group>"; };
 		0028F15227C068C800C1BAD7 /* ModelHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelHelpers.swift; sourceTree = "<group>"; };
 		0028F15A27C0E65A00C1BAD7 /* articles-example-original.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "articles-example-original.json"; sourceTree = "<group>"; };
 		0028F15B27C0E7F100C1BAD7 /* articles-example-original-single.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "articles-example-original-single.json"; sourceTree = "<group>"; };
 		0028F16A27C119AC00C1BAD7 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		0028F17A27C13EFC00C1BAD7 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
+		0028F17F27C2423600C1BAD7 /* Segues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segues.swift; sourceTree = "<group>"; };
+		0028F18427C24B5900C1BAD7 /* UIViewController+LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+LoadingIndicator.swift"; sourceTree = "<group>"; };
+		0028F19F27C3006300C1BAD7 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		0028F1A727C3013700C1BAD7 /* MarketParsingData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MarketParsingData.json; sourceTree = "<group>"; };
+		0028F1B227C387C600C1BAD7 /* iOS Interview Programming Task - Senior Developer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "iOS Interview Programming Task - Senior Developer.pdf"; path = "Non-project files/iOS Interview Programming Task - Senior Developer.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +116,8 @@
 		0028F0AE27BFE78600C1BAD7 = {
 			isa = PBXGroup;
 			children = (
+				0028F1B227C387C600C1BAD7 /* iOS Interview Programming Task - Senior Developer.pdf */,
+				0028F12827BFFAD000C1BAD7 /* README_submission.md */,
 				0028F0B927BFE78600C1BAD7 /* igFxRelated */,
 				0028F0D027BFE78900C1BAD7 /* igFxRelatedTests */,
 				0028F0DB27BFE78900C1BAD7 /* igFxRelatedUITests */,
@@ -127,16 +138,16 @@
 		0028F0B927BFE78600C1BAD7 /* igFxRelated */ = {
 			isa = PBXGroup;
 			children = (
-				0028F12827BFFAD000C1BAD7 /* README_submission.md */,
 				0028F0BA27BFE78600C1BAD7 /* AppDelegate.swift */,
 				0028F0BC27BFE78600C1BAD7 /* SceneDelegate.swift */,
+				0028F10527BFED6400C1BAD7 /* API.swift */,
+				0028F12327BFF85600C1BAD7 /* IGFxError.swift */,
 				0028F0F627BFEABD00C1BAD7 /* View Controllers */,
 				0028F13127C0058600C1BAD7 /* Views */,
 				0028F0FA27BFEACD00C1BAD7 /* Storyboards */,
 				0028F0F227BFEAB400C1BAD7 /* Model */,
+				0028F18C27C24CA300C1BAD7 /* Extensions */,
 				0028F0FB27BFEADE00C1BAD7 /* Misc */,
-				0028F10527BFED6400C1BAD7 /* API.swift */,
-				0028F12327BFF85600C1BAD7 /* IGFxError.swift */,
 			);
 			path = igFxRelated;
 			sourceTree = "<group>";
@@ -145,7 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				0028F0D127BFE78900C1BAD7 /* igFxRelatedTests.swift */,
+				0028F19F27C3006300C1BAD7 /* MockURLProtocol.swift */,
 				0028F0D327BFE78900C1BAD7 /* Info.plist */,
+				0028F1A727C3013700C1BAD7 /* MarketParsingData.json */,
 			);
 			path = igFxRelatedTests;
 			sourceTree = "<group>";
@@ -196,6 +209,7 @@
 				0028F15A27C0E65A00C1BAD7 /* articles-example-original.json */,
 				0028F15B27C0E7F100C1BAD7 /* articles-example-original-single.json */,
 				0028F10E27BFF02C00C1BAD7 /* markets-example.json */,
+				0028F17F27C2423600C1BAD7 /* Segues.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -214,6 +228,7 @@
 			children = (
 				0028F14827C065EB00C1BAD7 /* ArticlesViewController.swift */,
 				0028F14D27C065FD00C1BAD7 /* ArticlesViewControllerModel.swift */,
+				0028F17A27C13EFC00C1BAD7 /* ArticleDetailViewController.swift */,
 			);
 			path = Articles;
 			sourceTree = "<group>";
@@ -231,7 +246,6 @@
 			isa = PBXGroup;
 			children = (
 				0028F13227C0059800C1BAD7 /* MarketValueTableViewCell.swift */,
-				0028F14327C0144E00C1BAD7 /* MarketHeaderTableViewCell.swift */,
 			);
 			path = Markets;
 			sourceTree = "<group>";
@@ -242,6 +256,14 @@
 				0028F16A27C119AC00C1BAD7 /* ArticleCell.swift */,
 			);
 			path = Articles;
+			sourceTree = "<group>";
+		};
+		0028F18C27C24CA300C1BAD7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0028F18427C24B5900C1BAD7 /* UIViewController+LoadingIndicator.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +380,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0028F1A827C3013700C1BAD7 /* MarketParsingData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,16 +402,18 @@
 				0028F13327C0059800C1BAD7 /* MarketValueTableViewCell.swift in Sources */,
 				0028F12D27C0014400C1BAD7 /* MarketsViewControllerModel.swift in Sources */,
 				0028F11F27BFF64300C1BAD7 /* MarketsViewController.swift in Sources */,
+				0028F18527C24B5900C1BAD7 /* UIViewController+LoadingIndicator.swift in Sources */,
+				0028F18027C2423600C1BAD7 /* Segues.swift in Sources */,
 				0028F16B27C119AC00C1BAD7 /* ArticleCell.swift in Sources */,
 				0028F15327C068C800C1BAD7 /* ModelHelpers.swift in Sources */,
 				0028F12427BFF85600C1BAD7 /* IGFxError.swift in Sources */,
 				0028F14E27C065FD00C1BAD7 /* ArticlesViewControllerModel.swift in Sources */,
-				0028F14427C0144E00C1BAD7 /* MarketHeaderTableViewCell.swift in Sources */,
 				0028F0BB27BFE78600C1BAD7 /* AppDelegate.swift in Sources */,
 				0028F11727BFF31E00C1BAD7 /* MarketsModel.swift in Sources */,
 				0028F0EE27BFEAAE00C1BAD7 /* ArticleModel.swift in Sources */,
 				0028F0BD27BFE78600C1BAD7 /* SceneDelegate.swift in Sources */,
 				0028F10627BFED6400C1BAD7 /* API.swift in Sources */,
+				0028F17B27C13EFD00C1BAD7 /* ArticleDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0028F0D227BFE78900C1BAD7 /* igFxRelatedTests.swift in Sources */,
+				0028F1A027C3006300C1BAD7 /* MockURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +593,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69VQ8X8JJ7;
 				INFOPLIST_FILE = igFxRelated/Misc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -586,6 +613,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69VQ8X8JJ7;
 				INFOPLIST_FILE = igFxRelated/Misc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

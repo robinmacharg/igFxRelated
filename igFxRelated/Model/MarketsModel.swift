@@ -5,21 +5,6 @@
 //  Created by Robin Macharg on 18/02/2022.
 //
 
-// This file was generated from JSON Schema using quicktype, do not modify it directly.
-// To parse the JSON, add this file to your project and do:
-//
-//   let markets = try? newJSONDecoder().decode(Markets.self, from: jsonData)
-
-//
-// To read values from URLs:
-//
-//   let task = URLSession.shared.marketsTask(with: url) { markets, response, error in
-//     if let markets = markets {
-//       ...
-//     }
-//   }
-//   task.resume()
-
 import Foundation
 
 /**
@@ -46,16 +31,6 @@ enum MarketSection: Int {
 struct Markets: Codable {
     let currencies, commodities, indices: [Market]
 }
-
-//
-// To read values from URLs:
-//
-//   let task = URLSession.shared.commodityTask(with: url) { commodity, response, error in
-//     if let commodity = commodity {
-//       ...
-//     }
-//   }
-//   task.resume()
 
 // MARK: - Market
 struct Market: Codable {
@@ -88,6 +63,10 @@ enum CalendarMapping: String, Codable {
 // MARK: - URLSession response handlers
 
 extension URLSession {
+    
+    /**
+     * A Markets-specific URLSession task to download and decode Articles JSON
+     */
     func marketsTask(
         with url: URL,
         completionHandler: @escaping (Markets?, URLResponse?, Error?) -> Void) -> URLSessionDataTask

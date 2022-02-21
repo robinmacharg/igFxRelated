@@ -5,7 +5,10 @@
 //  Created by Robin Macharg on 18/02/2022.
 //
 
+// Assesment note: This cod is boiler-plate, not used and left in for ruture expansion
+
 import XCTest
+@testable import igFxRelated
 
 class igFxRelatedUITests: XCTestCase {
 

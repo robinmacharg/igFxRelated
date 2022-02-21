@@ -7,6 +7,9 @@
 
 import Foundation
 
+/**
+ * The top-level article sections
+ */
 enum ArticlesSection: Int {
     case breakingNews = 0
     case topNews
@@ -108,6 +111,10 @@ struct DailyBriefings: Codable {
 // MARK: - URLSession response handlers
 
 extension URLSession {
+    
+    /**
+     * An Articles-specific URLSession task to download and decode Articles JSON
+     */
     func articlesTask(
         with url: URL,
         completionHandler: @escaping (Articles?, URLResponse?, Error?) -> Void) -> URLSessionDataTask

@@ -7,62 +7,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "21B29F4C-7345-4912-A359-38ED481FFEF1"
+            uuid = "E089EB3D-6B31-43E2-905E-283C1ABBF763"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/MarketsViewController.swift"
+            filePath = "igFxRelated/View Controllers/Articles/ArticleDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "21B29F4C-7345-4912-A359-38ED481FFEF1 - 9fd08ce3acf61251"
+                  uuid = "E089EB3D-6B31-43E2-905E-283C1ABBF763 - 73424921c873f7a2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "igFxRelated.MarketsViewController.viewDidLoad() -&gt; ()"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, igFxRelated.IGFxError&gt;) -&gt; () in igFxRelated.ArticleDetailViewController.viewDidLoad() -&gt; ()"
                   moduleName = "igFxRelated"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robin/dev/Scratch/igFxRelated/igFxRelated/View%20Controllers/MarketsViewController.swift"
+                  urlString = "file:///Users/robin/dev/Scratch/igFxRelated/igFxRelated/View%20Controllers/Articles/ArticleDetailViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "126">
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1331">
                </Location>
                <Location
-                  uuid = "21B29F4C-7345-4912-A359-38ED481FFEF1 - 9fd08ce3acf61251"
+                  uuid = "E089EB3D-6B31-43E2-905E-283C1ABBF763 - 130e158c9acf0255"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "igFxRelated.MarketsViewController.viewDidLoad() -&gt; ()"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Result&lt;Foundation.Data, igFxRelated.IGFxError&gt;) -&gt; () in igFxRelated.ArticleDetailViewController.viewDidLoad() -&gt; ()"
                   moduleName = "igFxRelated"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robin/dev/Scratch/igFxRelated/igFxRelated/View%20Controllers/MarketsViewController.swift"
+                  urlString = "file:///Users/robin/dev/Scratch/igFxRelated/igFxRelated/View%20Controllers/Articles/ArticleDetailViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "147">
-               </Location>
-               <Location
-                  uuid = "21B29F4C-7345-4912-A359-38ED481FFEF1 - 2bcf2d777993dbdd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;igFxRelated.Markets, igFxRelated.IGFxError&gt;) -&gt; () in igFxRelated.MarketsViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "igFxRelated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robin/dev/Scratch/igFxRelated/igFxRelated/View%20Controllers/MarketsViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "252">
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "108">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -70,15 +55,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "493064FC-1919-4C76-B66B-33DB21D6F149"
+            uuid = "58C4A6ED-5AB7-4A0E-AE06-4CF2A4B941B7"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/MarketsViewController.swift"
+            filePath = "igFxRelated/View Controllers/Articles/ArticleDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -86,104 +71,72 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A7170FF3-78C8-47AF-BE1A-545BB69CBB94"
+            uuid = "E6C4761B-DF82-413A-A198-90FD2C894C95"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/MarketsViewController.swift"
+            filePath = "igFxRelated/View Controllers/Articles/ArticlesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
-            landmarkName = "numberOfSections(in:)"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "loadData()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B3A186DA-517B-49D9-A1FE-E6EA2D070397"
+            uuid = "22278BA4-4CE3-4A54-9675-9F95A2E44329"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/MarketsViewController.swift"
+            filePath = "igFxRelatedTests/igFxRelatedTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "testMarketParsing()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "26F41B4C-1B9A-4C58-A6E9-67EFB7763DF0"
+            uuid = "35849BE7-2536-48F3-8F69-F8B82BAAB1B7"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/MarketsViewController.swift"
+            filePath = "igFxRelatedTests/igFxRelatedTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "178"
-            endingLineNumber = "178"
-            landmarkName = "tableView(_:heightForHeaderInSection:)"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "testMarketParsing()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "00B08F3F-F487-4B0B-BB49-2A889529A2F0"
+            uuid = "8F4F2734-1820-4067-8F62-AC9A81A87C81"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/ArticlesViewControllerModel.swift"
+            filePath = "igFxRelatedTests/igFxRelatedTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "updateArticles(_:)"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "testMarketParsing()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6D7A543F-A38B-47F3-9B5E-9A35358A03E2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/API.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "getArticles(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AA521047-3CD0-4AEB-8563-D2EAD5C178A7"
+            uuid = "68A607C2-C6AC-437E-B89D-266A49F01B45"
             shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/ArticlesViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "54232FCA-E969-4946-9C90-7582906C1BB7"
-            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "igFxRelated/API.swift"
@@ -191,231 +144,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
             endingLineNumber = "55"
-            landmarkName = "getArticles(_:)"
+            landmarkName = "getMarkets(_:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5131DAE8-6AE1-4145-AB23-EA3FE7E3FC39"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/MarketsViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "loadData()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4A1AC002-63CD-4494-B2F0-C5E4772FD1A6"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/Articles/ArticlesViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A158ED60-BA08-46D1-AE9B-C43C02AE538F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/Articles/ArticlesViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "122"
-            endingLineNumber = "122"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7988A8D9-D63D-441E-9BB1-796A44B85C59"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/Articles/ArticlesViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "124"
-            endingLineNumber = "124"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C676C6CA-073F-496B-82AE-29EF96646B1B"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/Articles/ArticlesViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E78D8F90-4513-4166-B545-EFD7BA463AFF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/Articles/ArticlesViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BF7DCC38-FD5A-40CE-B7C2-7CECE959B7BB"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/Articles/ArticlesViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9E29E52E-90D2-46DC-A234-8CA30F97123C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/Articles/ArticlesViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E57171D1-70C4-4E92-8E3F-9CA013208066"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/Model/ArticleModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "displayValue"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1B4D5DA3-723C-4531-861F-DA6BB4F69A92"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/Articles/ArticlesViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "14C75A36-4A43-4C64-9048-1ECD3A58E9F2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "igFxRelated/View Controllers/Articles/ArticlesViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "loadData()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "14C75A36-4A43-4C64-9048-1ECD3A58E9F2 - 98263c90cfe3a908"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;igFxRelated.Articles, igFxRelated.IGFxError&gt;) -&gt; () in igFxRelated.ArticlesViewController.loadData() -&gt; ()"
-                  moduleName = "igFxRelated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robin/dev/Scratch/igFxRelated/igFxRelated/View%20Controllers/Articles/ArticlesViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "226">
-               </Location>
-               <Location
-                  uuid = "14C75A36-4A43-4C64-9048-1ECD3A58E9F2 - 98263c90cfe3a908"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;igFxRelated.Articles, igFxRelated.IGFxError&gt;) -&gt; () in igFxRelated.ArticlesViewController.loadData() -&gt; ()"
-                  moduleName = "igFxRelated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robin/dev/Scratch/igFxRelated/igFxRelated/View%20Controllers/Articles/ArticlesViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "270">
-               </Location>
-               <Location
-                  uuid = "14C75A36-4A43-4C64-9048-1ECD3A58E9F2 - 98263c90cfe3a908"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;igFxRelated.Articles, igFxRelated.IGFxError&gt;) -&gt; () in igFxRelated.ArticlesViewController.loadData() -&gt; ()"
-                  moduleName = "igFxRelated"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/robin/dev/Scratch/igFxRelated/igFxRelated/View%20Controllers/Articles/ArticlesViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "919">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

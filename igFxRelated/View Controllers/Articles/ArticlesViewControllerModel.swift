@@ -7,6 +7,9 @@
 
 import Foundation
 
+/**
+ * A ViewModel for Articles - trivial
+ */
 struct ArticlesViewControllerModel {
     var articles: Articles? = nil
     
